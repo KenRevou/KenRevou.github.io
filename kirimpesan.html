@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kirim Pesan Ke Justin</title>
+  <link rel="stylesheet" type="text/css" href="kirimpesan.css">
+  <script src = "kirimpesan.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <div>
+      <a class="menu" href="index.html">Home</a>
+      <a class="menu" href="kirimpesan.html">Kirim Pesan</a>
+      <a class="menu" href="gallery.html">Gallery</a>
+  </div>  
+  <h1>Kirim Pesan Untuk Justin</h1>
+  
+  <label for="nama">Nama Anda:</label>
+  <input type="text" id="nama" required><br><br>
+  
+  <label for="pesan">Pesan:</label><br>
+  <textarea id="pesan" rows="5" required></textarea><br><br>
+  
+  <button onclick="kirimPesan()">Kirim Pesan</button>
+  
+  <h2>Pesan yang Dikirim</h2>
+  <table id="pesanTable">
+    <tr>
+      <th>Nama</th>
+      <th>Pesan</th>
+      <th>Action</th>
+    </tr>
+  </table>
+  
+</body>
+</html>

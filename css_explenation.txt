@@ -1,0 +1,67 @@
+/* Inline, Internal, External
+inline: langsung pada tag.
+internal: file html yang sama.
+external: file css sendiri.
+*/
+
+/* STRUKTUR CSS
+ selektor {
+    properti: nilai.
+ }
+*/
+
+/*  ID & CLASS
+ selektor ID menggunakan penanda "#" Untuk satu elemen saja.
+    Contoh: 
+    #h1{    
+    
+    }
+
+selektor class  menggunakan penanda "." Untuk banyak elemen.
+    Contoh:    
+    .h1{
+
+     }
+*/
+
+/* Penulisan Margin, Padding, & Border
+     margin: top right bottom left.
+     
+     padding: top right bottom left.
+     padding: 10px; ---> semua T-R-B-L itu berukuran 10px.
+     padding: 10px 5px; ---> T-B berukuran 10px, R-L berukuran 5px.
+
+     border: width style color;
+*/
+
+
+/* Display
+     inline -> mengambil display sebaris dari konten sebelumnya (punya sifat tidak bisa mengatur tinggi dan lebar).
+     block -> mengambil lebar display sebesar browser.
+     inline-block -> gabungan kedua display, dan bisa mengatur tinggi, dan lebar.
+*/
+
+
+/* Posisiton
+     posisition: static, relative, absolute, fixed.
+     
+     static: mengikuti urutan/order yang ada di html.
+     relative: bisa di-adjust agar tidak sesuai dengan urutan/order yang ada di html.
+         positition: relative.
+         top: XXpx.
+         left: XXpx.
+
+     absolute  :  membuat elemen seperti melayang dan meninggalkan posisi awalnya (scroll)
+     fixed     :  membuat elemen seperti melayang dan meninggalkan posisi awalnya (anti-scroll)
+*/
+
+
+/* z-index
+     mengatur elemen mana yang ada di bagian depan dan belakang, 
+     biasa digunakan ketika ada elemen yang saling tumpang tindih.
+*/
+
+/* Float & Clear 
+     float: mengatur agar elemen tersebut mengikuti elemen sebelumnya.
+     clear: menghilangkan efek float ke elemen berikutnya.
+*/
